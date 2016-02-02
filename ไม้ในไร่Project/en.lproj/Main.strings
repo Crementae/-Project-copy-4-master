@@ -1,0 +1,528 @@
+
+/* Class = "UISegmentedControl"; 0jP-Eu-cfU.segmentTitles[0] = "Normal"; ObjectID = "0jP-Eu-cfU"; */
+"0jP-Eu-cfU.segmentTitles[0]" = "Normal";
+
+/* Class = "UISegmentedControl"; 0jP-Eu-cfU.segmentTitles[1] = "Satellite"; ObjectID = "0jP-Eu-cfU"; */
+"0jP-Eu-cfU.segmentTitles[1]" = "Satellite";
+
+/* Class = "UISegmentedControl"; 0jP-Eu-cfU.segmentTitles[2] = "Hybrid"; ObjectID = "0jP-Eu-cfU"; */
+"0jP-Eu-cfU.segmentTitles[2]" = "Hybrid";
+
+/* Class = "UILabel"; text = "Sci name"; ObjectID = "22P-xj-oM6"; */
+"22P-xj-oM6.text" = "Sci name";
+
+/* Class = "UIButton"; normalTitle = "100 M."; ObjectID = "2o8-hd-FdR"; */
+"2o8-hd-FdR.normalTitle" = "100 M.";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "2ox-rx-afF"; */
+"2ox-rx-afF.text" = "Title";
+
+/* Class = "UILabel"; text = "Family name"; ObjectID = "3ui-pH-PBR"; */
+"3ui-pH-PBR.text" = "Family name";
+
+/* Class = "UIButton"; normalTitle = "Rainy"; ObjectID = "4C9-ya-sTp"; */
+"4C9-ya-sTp.normalTitle" = "Rainy";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "4Ul-i2-qaW"; */
+"4Ul-i2-qaW.text" = "Title";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "5Gb-7d-VdM"; */
+"5Gb-7d-VdM.placeholder" = "Search";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "75L-g3-WpZ"; */
+"75L-g3-WpZ.placeholder" = "Search";
+
+/* Class = "UIViewController"; title = "SummerTreeDetails"; ObjectID = "78R-Ll-gi1"; */
+"78R-Ll-gi1.title" = "SummerTreeDetails";
+
+/* Class = "UILabel"; text = "ภาษา"; ObjectID = "79c-Y2-jn6"; */
+"79c-Y2-jn6.text" = "ภาษา";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "7Jn-HK-yz5"; */
+"7Jn-HK-yz5.placeholder" = "Search";
+
+/* Class = "UILabel"; text = "Short description"; ObjectID = "7eO-rY-apQ"; */
+"7eO-rY-apQ.text" = "Short description";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "83m-Ex-pkP"; */
+"83m-Ex-pkP.text" = "Title";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "8Ao-Jz-UpI"; */
+"8Ao-Jz-UpI.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "เออาร์"; ObjectID = "8Hs-Lc-RUb"; */
+"8Hs-Lc-RUb.text" = "เออาร์";
+
+/* Class = "UILabel"; text = "Family name"; ObjectID = "997-0z-itu"; */
+"997-0z-itu.text" = "Family name";
+
+/* Class = "UIViewController"; title = "AllSeasonTreeDetails"; ObjectID = "9A8-QJ-mHP"; */
+"9A8-QJ-mHP.title" = "AllSeasonTreeDetails";
+
+/* Class = "UILabel"; text = "Sci name"; ObjectID = "9aE-nC-SS7"; */
+"9aE-nC-SS7.text" = "Sci name";
+
+/* Class = "UIButton"; normalTitle = "Location"; ObjectID = "9i4-4h-0IT"; */
+"9i4-4h-0IT.normalTitle" = "Location";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "9ou-r5-Tkj"; */
+"9ou-r5-Tkj.placeholder" = "Search";
+
+/* Class = "UISegmentedControl"; 9y3-0X-w9Q.segmentTitles[0] = "Normal"; ObjectID = "9y3-0X-w9Q"; */
+"9y3-0X-w9Q.segmentTitles[0]" = "Normal";
+
+/* Class = "UISegmentedControl"; 9y3-0X-w9Q.segmentTitles[1] = "Satellite"; ObjectID = "9y3-0X-w9Q"; */
+"9y3-0X-w9Q.segmentTitles[1]" = "Satellite";
+
+/* Class = "UISegmentedControl"; 9y3-0X-w9Q.segmentTitles[2] = "Hybrid"; ObjectID = "9y3-0X-w9Q"; */
+"9y3-0X-w9Q.segmentTitles[2]" = "Hybrid";
+
+/* Class = "UIButton"; normalTitle = "Summer"; ObjectID = "AIR-7d-GG4"; */
+"AIR-7d-GG4.normalTitle" = "Summer";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "CRj-D2-RtW"; */
+"CRj-D2-RtW.placeholder" = "Search";
+
+/* Class = "UIViewController"; title = "SummerList"; ObjectID = "EC4-JD-pZs"; */
+"EC4-JD-pZs.title" = "SummerList";
+
+/* Class = "UISegmentedControl"; EOI-0g-Swy.segmentTitles[0] = "Normal"; ObjectID = "EOI-0g-Swy"; */
+"EOI-0g-Swy.segmentTitles[0]" = "Normal";
+
+/* Class = "UISegmentedControl"; EOI-0g-Swy.segmentTitles[1] = "Satellite"; ObjectID = "EOI-0g-Swy"; */
+"EOI-0g-Swy.segmentTitles[1]" = "Satellite";
+
+/* Class = "UISegmentedControl"; EOI-0g-Swy.segmentTitles[2] = "Hybrid"; ObjectID = "EOI-0g-Swy"; */
+"EOI-0g-Swy.segmentTitles[2]" = "Hybrid";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "Esk-AY-8PV"; */
+"Esk-AY-8PV.placeholder" = "Search";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "FH8-5y-8Gx"; */
+"FH8-5y-8Gx.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UISegmentedControl"; FX2-sy-hnP.segmentTitles[0] = "Normal"; ObjectID = "FX2-sy-hnP"; */
+"FX2-sy-hnP.segmentTitles[0]" = "Normal";
+
+/* Class = "UISegmentedControl"; FX2-sy-hnP.segmentTitles[1] = "Satellite"; ObjectID = "FX2-sy-hnP"; */
+"FX2-sy-hnP.segmentTitles[1]" = "Satellite";
+
+/* Class = "UISegmentedControl"; FX2-sy-hnP.segmentTitles[2] = "Hybrid"; ObjectID = "FX2-sy-hnP"; */
+"FX2-sy-hnP.segmentTitles[2]" = "Hybrid";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "FeV-lN-Tah"; */
+"FeV-lN-Tah.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "All"; ObjectID = "FoL-Rp-tV9"; */
+"FoL-Rp-tV9.normalTitle" = "All";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "FwC-1U-r6T"; */
+"FwC-1U-r6T.text" = "Title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "GAA-zh-Xkn"; */
+"GAA-zh-Xkn.text" = "Title";
+
+/* Class = "UIBarButtonItem"; title = "Search"; ObjectID = "GZw-zQ-Amq"; */
+"GZw-zQ-Amq.title" = "Search";
+
+/* Class = "UILabel"; text = "Hot Season"; ObjectID = "GuF-Nr-Ak7"; */
+"GuF-Nr-Ak7.text" = "Hot Season";
+
+/* Class = "UILabel"; text = "เกี่ยวกับ"; ObjectID = "HC8-AL-Nly"; */
+"HC8-AL-Nly.text" = "เกี่ยวกับ";
+
+/* Class = "UISegmentedControl"; Hp7-tz-Qba.segmentTitles[0] = "Normal"; ObjectID = "Hp7-tz-Qba"; */
+"Hp7-tz-Qba.segmentTitles[0]" = "Normal";
+
+/* Class = "UISegmentedControl"; Hp7-tz-Qba.segmentTitles[1] = "Satellite"; ObjectID = "Hp7-tz-Qba"; */
+"Hp7-tz-Qba.segmentTitles[1]" = "Satellite";
+
+/* Class = "UISegmentedControl"; Hp7-tz-Qba.segmentTitles[2] = "Hybrid"; ObjectID = "Hp7-tz-Qba"; */
+"Hp7-tz-Qba.segmentTitles[2]" = "Hybrid";
+
+/* Class = "UILabel"; text = "Sci name"; ObjectID = "IXz-Ct-7Qe"; */
+"IXz-Ct-7Qe.text" = "Sci name";
+
+/* Class = "UIButton"; normalTitle = "FBshare"; ObjectID = "JiS-8d-yH7"; */
+"JiS-8d-yH7.normalTitle" = "FBshare";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "K8r-5H-TcM"; */
+"K8r-5H-TcM.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Cold"; ObjectID = "KNk-0X-cbb"; */
+"KNk-0X-cbb.normalTitle" = "Cold";
+
+/* Class = "UILabel"; text = "Short description"; ObjectID = "KcW-Sr-r3z"; */
+"KcW-Sr-r3z.text" = "Short description";
+
+/* Class = "UILabel"; text = "Sci name"; ObjectID = "L3A-nn-775"; */
+"L3A-nn-775.text" = "Sci name";
+
+/* Class = "UILabel"; text = "ตั้งค่า"; ObjectID = "LBc-z6-R50"; */
+"LBc-z6-R50.text" = "ตั้งค่า";
+
+/* Class = "UIButton"; normalTitle = "Recom"; ObjectID = "Lhd-Ag-QQw"; */
+"Lhd-Ag-QQw.normalTitle" = "Recom";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "M8Z-Jo-uiZ"; */
+"M8Z-Jo-uiZ.text" = "Title";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "N3v-OW-a9e"; */
+"N3v-OW-a9e.placeholder" = "Search";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "NNF-EN-W7V"; */
+"NNF-EN-W7V.text" = "Title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "QAh-Wd-DML"; */
+"QAh-Wd-DML.text" = "Title";
+
+/* Class = "UILabel"; text = "ฤดูร้อน"; ObjectID = "QCp-T5-5YG"; */
+"QCp-T5-5YG.text" = "ฤดูร้อน";
+
+/* Class = "UILabel"; text = "Short description"; ObjectID = "QH2-oh-2A2"; */
+"QH2-oh-2A2.text" = "Short description";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "QLU-4i-AYO"; */
+"QLU-4i-AYO.text" = "Title";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "Qpt-3s-VOh"; */
+"Qpt-3s-VOh.text" = "Title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "RHg-Ca-vN9"; */
+"RHg-Ca-vN9.text" = "Title";
+
+/* Class = "UISegmentedControl"; Rgs-k9-lFm.segmentTitles[0] = "Normal"; ObjectID = "Rgs-k9-lFm"; */
+"Rgs-k9-lFm.segmentTitles[0]" = "Normal";
+
+/* Class = "UISegmentedControl"; Rgs-k9-lFm.segmentTitles[1] = "Satellite"; ObjectID = "Rgs-k9-lFm"; */
+"Rgs-k9-lFm.segmentTitles[1]" = "Satellite";
+
+/* Class = "UISegmentedControl"; Rgs-k9-lFm.segmentTitles[2] = "Hybrid"; ObjectID = "Rgs-k9-lFm"; */
+"Rgs-k9-lFm.segmentTitles[2]" = "Hybrid";
+
+/* Class = "UIButton"; normalTitle = "FBshare"; ObjectID = "Rjs-NO-cLw"; */
+"Rjs-NO-cLw.normalTitle" = "FBshare";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "Rrl-38-yy9"; */
+"Rrl-38-yy9.text" = "Title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "S9S-vQ-Q2C"; */
+"S9S-vQ-Q2C.text" = "Title";
+
+/* Class = "UILabel"; text = "Rainny Season"; ObjectID = "SGb-pS-1mc"; */
+"SGb-pS-1mc.text" = "Rainny Season";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "SIn-CU-1I5"; */
+"SIn-CU-1I5.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Location"; ObjectID = "SOd-Fj-toP"; */
+"SOd-Fj-toP.normalTitle" = "Location";
+
+/* Class = "UIButton"; normalTitle = "Rain"; ObjectID = "TSi-dm-alf"; */
+"TSi-dm-alf.normalTitle" = "Rain";
+
+/* Class = "UILabel"; text = "Short description"; ObjectID = "TZK-jv-D3c"; */
+"TZK-jv-D3c.text" = "Short description";
+
+/* Class = "UILabel"; text = "ฤดูหนาว"; ObjectID = "Tzc-BG-Dij"; */
+"Tzc-BG-Dij.text" = "ฤดูหนาว";
+
+/* Class = "UILabel"; text = "บริการที่ตั้ง"; ObjectID = "UO0-mY-OOr"; */
+"UO0-mY-OOr.text" = "บริการที่ตั้ง";
+
+/* Class = "UILabel"; text = "Family name"; ObjectID = "UTQ-gk-XCL"; */
+"UTQ-gk-XCL.text" = "Family name";
+
+/* Class = "UIButton"; normalTitle = "Location"; ObjectID = "UYV-Ip-xOI"; */
+"UYV-Ip-xOI.normalTitle" = "Location";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Uci-II-cov"; */
+"Uci-II-cov.text" = "Title";
+
+/* Class = "UILabel"; text = "ต้นไม้ทุกฤดู"; ObjectID = "UgV-4c-b5X"; */
+"UgV-4c-b5X.text" = "ต้นไม้ทุกฤดู";
+
+/* Class = "UISegmentedControl"; VXI-Zx-tE0.segmentTitles[0] = "Normal"; ObjectID = "VXI-Zx-tE0"; */
+"VXI-Zx-tE0.segmentTitles[0]" = "Normal";
+
+/* Class = "UISegmentedControl"; VXI-Zx-tE0.segmentTitles[1] = "Satellite"; ObjectID = "VXI-Zx-tE0"; */
+"VXI-Zx-tE0.segmentTitles[1]" = "Satellite";
+
+/* Class = "UISegmentedControl"; VXI-Zx-tE0.segmentTitles[2] = "Hybrid"; ObjectID = "VXI-Zx-tE0"; */
+"VXI-Zx-tE0.segmentTitles[2]" = "Hybrid";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "VfM-FH-zCE"; */
+"VfM-FH-zCE.text" = "Title";
+
+/* Class = "UISegmentedControl"; XAO-T0-aV3.segmentTitles[0] = "Normal"; ObjectID = "XAO-T0-aV3"; */
+"XAO-T0-aV3.segmentTitles[0]" = "Normal";
+
+/* Class = "UISegmentedControl"; XAO-T0-aV3.segmentTitles[1] = "Satellite"; ObjectID = "XAO-T0-aV3"; */
+"XAO-T0-aV3.segmentTitles[1]" = "Satellite";
+
+/* Class = "UISegmentedControl"; XAO-T0-aV3.segmentTitles[2] = "Hybrid"; ObjectID = "XAO-T0-aV3"; */
+"XAO-T0-aV3.segmentTitles[2]" = "Hybrid";
+
+/* Class = "UILabel"; text = "Short description"; ObjectID = "YT4-LA-lvL"; */
+"YT4-LA-lvL.text" = "Short description";
+
+/* Class = "UISegmentedControl"; YVD-Pn-vyp.segmentTitles[0] = "Normal"; ObjectID = "YVD-Pn-vyp"; */
+"YVD-Pn-vyp.segmentTitles[0]" = "Normal";
+
+/* Class = "UISegmentedControl"; YVD-Pn-vyp.segmentTitles[1] = "Satellite"; ObjectID = "YVD-Pn-vyp"; */
+"YVD-Pn-vyp.segmentTitles[1]" = "Satellite";
+
+/* Class = "UISegmentedControl"; YVD-Pn-vyp.segmentTitles[2] = "Hybrid"; ObjectID = "YVD-Pn-vyp"; */
+"YVD-Pn-vyp.segmentTitles[2]" = "Hybrid";
+
+/* Class = "UIButton"; normalTitle = "Recom"; ObjectID = "Yc9-wm-1J1"; */
+"Yc9-wm-1J1.normalTitle" = "Recom";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "Yf8-bC-e35"; */
+"Yf8-bC-e35.placeholder" = "Search";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Zik-c7-e8r"; */
+"Zik-c7-e8r.text" = "Title";
+
+/* Class = "UISegmentedControl"; Zoj-vE-pL7.segmentTitles[0] = "Normal"; ObjectID = "Zoj-vE-pL7"; */
+"Zoj-vE-pL7.segmentTitles[0]" = "Normal";
+
+/* Class = "UISegmentedControl"; Zoj-vE-pL7.segmentTitles[1] = "Satellite"; ObjectID = "Zoj-vE-pL7"; */
+"Zoj-vE-pL7.segmentTitles[1]" = "Satellite";
+
+/* Class = "UISegmentedControl"; Zoj-vE-pL7.segmentTitles[2] = "Hybrid"; ObjectID = "Zoj-vE-pL7"; */
+"Zoj-vE-pL7.segmentTitles[2]" = "Hybrid";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "aCH-rj-Y0e"; */
+"aCH-rj-Y0e.text" = "Title";
+
+/* Class = "UILabel"; text = "บริการที่ตั้ง"; ObjectID = "aVU-Yn-ckY"; */
+"aVU-Yn-ckY.text" = "บริการที่ตั้ง";
+
+/* Class = "UILabel"; text = "ฤดูฝน"; ObjectID = "aWD-fi-gUx"; */
+"aWD-fi-gUx.text" = "ฤดูฝน";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "auR-ys-cKY"; */
+"auR-ys-cKY.text" = "Title";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "bF2-2o-Dw3"; */
+"bF2-2o-Dw3.placeholder" = "Search";
+
+/* Class = "UILabel"; text = "Short description"; ObjectID = "bSm-hM-moh"; */
+"bSm-hM-moh.text" = "Short description";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "bjx-u4-uMD"; */
+"bjx-u4-uMD.text" = "Title";
+
+/* Class = "UISegmentedControl"; c7f-Hp-J1w.segmentTitles[0] = "ไทย"; ObjectID = "c7f-Hp-J1w"; */
+"c7f-Hp-J1w.segmentTitles[0]" = "ไทย";
+
+/* Class = "UISegmentedControl"; c7f-Hp-J1w.segmentTitles[1] = "Eng"; ObjectID = "c7f-Hp-J1w"; */
+"c7f-Hp-J1w.segmentTitles[1]" = "Eng";
+
+/* Class = "UILabel"; text = "All Seasons"; ObjectID = "cIu-41-dkA"; */
+"cIu-41-dkA.text" = "All Seasons";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "cWE-TZ-u4i"; */
+"cWE-TZ-u4i.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Cool"; ObjectID = "cX8-bM-wfl"; */
+"cX8-bM-wfl.normalTitle" = "Cool";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "clV-IV-DG5"; */
+"clV-IV-DG5.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Recom"; ObjectID = "csq-MZ-j5A"; */
+"csq-MZ-j5A.normalTitle" = "Recom";
+
+/* Class = "UILabel"; text = "Short description"; ObjectID = "cxV-5c-ESY"; */
+"cxV-5c-ESY.text" = "Short description";
+
+/* Class = "UISegmentedControl"; d5V-vu-MZv.segmentTitles[0] = "Normal"; ObjectID = "d5V-vu-MZv"; */
+"d5V-vu-MZv.segmentTitles[0]" = "Normal";
+
+/* Class = "UISegmentedControl"; d5V-vu-MZv.segmentTitles[1] = "Satellite"; ObjectID = "d5V-vu-MZv"; */
+"d5V-vu-MZv.segmentTitles[1]" = "Satellite";
+
+/* Class = "UISegmentedControl"; d5V-vu-MZv.segmentTitles[2] = "Hybrid"; ObjectID = "d5V-vu-MZv"; */
+"d5V-vu-MZv.segmentTitles[2]" = "Hybrid";
+
+/* Class = "UIButton"; normalTitle = "Summer"; ObjectID = "dhI-Us-HFa"; */
+"dhI-Us-HFa.normalTitle" = "Summer";
+
+/* Class = "UIBarButtonItem"; title = "Search"; ObjectID = "f8R-5X-GZW"; */
+"f8R-5X-GZW.title" = "Search";
+
+/* Class = "UIButton"; normalTitle = "Location"; ObjectID = "fVo-4K-gPz"; */
+"fVo-4K-gPz.normalTitle" = "Location";
+
+/* Class = "UILabel"; text = "แผนที่"; ObjectID = "fxR-eV-ZHM"; */
+"fxR-eV-ZHM.text" = "แผนที่";
+
+/* Class = "UILabel"; text = "Short description"; ObjectID = "g66-zX-xz7"; */
+"g66-zX-xz7.text" = "Short description";
+
+/* Class = "UISegmentedControl"; gbP-TL-1b4.segmentTitles[0] = "Normal"; ObjectID = "gbP-TL-1b4"; */
+"gbP-TL-1b4.segmentTitles[0]" = "Normal";
+
+/* Class = "UISegmentedControl"; gbP-TL-1b4.segmentTitles[1] = "Satellite"; ObjectID = "gbP-TL-1b4"; */
+"gbP-TL-1b4.segmentTitles[1]" = "Satellite";
+
+/* Class = "UISegmentedControl"; gbP-TL-1b4.segmentTitles[2] = "Hybrid"; ObjectID = "gbP-TL-1b4"; */
+"gbP-TL-1b4.segmentTitles[2]" = "Hybrid";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "gux-eZ-8LE"; */
+"gux-eZ-8LE.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UISegmentedControl"; h1g-KN-5ao.segmentTitles[0] = "Normal"; ObjectID = "h1g-KN-5ao"; */
+"h1g-KN-5ao.segmentTitles[0]" = "Normal";
+
+/* Class = "UISegmentedControl"; h1g-KN-5ao.segmentTitles[1] = "Satellite"; ObjectID = "h1g-KN-5ao"; */
+"h1g-KN-5ao.segmentTitles[1]" = "Satellite";
+
+/* Class = "UISegmentedControl"; h1g-KN-5ao.segmentTitles[2] = "Hybrid"; ObjectID = "h1g-KN-5ao"; */
+"h1g-KN-5ao.segmentTitles[2]" = "Hybrid";
+
+/* Class = "UILabel"; text = "Family name"; ObjectID = "iNa-XZ-LkV"; */
+"iNa-XZ-LkV.text" = "Family name";
+
+/* Class = "UIViewController"; title = "AllSeasonSearch"; ObjectID = "iOf-fy-KbI"; */
+"iOf-fy-KbI.title" = "AllSeasonSearch";
+
+/* Class = "UIViewController"; title = "RecomendationTreeDetails"; ObjectID = "inS-l9-Dlk"; */
+"inS-l9-Dlk.title" = "RecomendationTreeDetails";
+
+/* Class = "UIViewController"; title = "ColdTreeDetails"; ObjectID = "jfn-Mw-V7q"; */
+"jfn-Mw-V7q.title" = "ColdTreeDetails";
+
+/* Class = "UISegmentedControl"; jgO-4P-icQ.segmentTitles[0] = "Normal"; ObjectID = "jgO-4P-icQ"; */
+"jgO-4P-icQ.segmentTitles[0]" = "Normal";
+
+/* Class = "UISegmentedControl"; jgO-4P-icQ.segmentTitles[1] = "Satellite"; ObjectID = "jgO-4P-icQ"; */
+"jgO-4P-icQ.segmentTitles[1]" = "Satellite";
+
+/* Class = "UISegmentedControl"; jgO-4P-icQ.segmentTitles[2] = "Hybrid"; ObjectID = "jgO-4P-icQ"; */
+"jgO-4P-icQ.segmentTitles[2]" = "Hybrid";
+
+/* Class = "UIViewController"; title = "Rainy TreeDetails"; ObjectID = "jlG-I3-YK6"; */
+"jlG-I3-YK6.title" = "Rainy TreeDetails";
+
+/* Class = "UILabel"; text = "เกี่ยวกับ"; ObjectID = "kb9-YD-dm1"; */
+"kb9-YD-dm1.text" = "เกี่ยวกับ";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "l56-K7-FSo"; */
+"l56-K7-FSo.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIViewController"; title = "Menu"; ObjectID = "lAd-72-Fpp"; */
+"lAd-72-Fpp.title" = "Menu";
+
+/* Class = "UIViewController"; title = "RainyList"; ObjectID = "lfh-Oh-kOe"; */
+"lfh-Oh-kOe.title" = "RainyList";
+
+/* Class = "UIButton"; normalTitle = "500 M."; ObjectID = "li4-Ry-x6P"; */
+"li4-Ry-x6P.normalTitle" = "500 M.";
+
+/* Class = "UILabel"; text = "Family name"; ObjectID = "m6c-9v-s1H"; */
+"m6c-9v-s1H.text" = "Family name";
+
+/* Class = "UILabel"; text = "Short description"; ObjectID = "mbo-k7-ZE6"; */
+"mbo-k7-ZE6.text" = "Short description";
+
+/* Class = "UIButton"; normalTitle = "Location"; ObjectID = "nSc-rR-Qq6"; */
+"nSc-rR-Qq6.normalTitle" = "Location";
+
+/* Class = "UIButton"; normalTitle = "Summer"; ObjectID = "nbD-ki-3Q5"; */
+"nbD-ki-3Q5.normalTitle" = "Summer";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "o04-3N-SvZ"; */
+"o04-3N-SvZ.text" = "Title";
+
+/* Class = "UITextField"; text = "ไม้ในไร่"; ObjectID = "o3n-cU-ZrD"; */
+"o3n-cU-ZrD.text" = "ไม้ในไร่";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "o3y-Nh-qDu"; */
+"o3y-Nh-qDu.text" = "Title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "pQd-dv-qp9"; */
+"pQd-dv-qp9.text" = "Title";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "piU-Hw-wAm"; */
+"piU-Hw-wAm.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "qG8-Ht-lFy"; */
+"qG8-Ht-lFy.placeholder" = "Search";
+
+/* Class = "UIBarButtonItem"; title = "Search"; ObjectID = "qbS-YQ-SNq"; */
+"qbS-YQ-SNq.title" = "Search";
+
+/* Class = "UIButton"; normalTitle = "FBshare"; ObjectID = "qgW-Vh-8Ba"; */
+"qgW-Vh-8Ba.normalTitle" = "FBshare";
+
+/* Class = "UIViewController"; title = "AR"; ObjectID = "qnV-OV-vgN"; */
+"qnV-OV-vgN.title" = "AR";
+
+/* Class = "UIViewController"; title = "RecomendationSearch"; ObjectID = "rCp-GJ-tii"; */
+"rCp-GJ-tii.title" = "RecomendationSearch";
+
+/* Class = "UIButton"; normalTitle = "200 M."; ObjectID = "rWl-FO-cOZ"; */
+"rWl-FO-cOZ.normalTitle" = "200 M.";
+
+/* Class = "UILabel"; text = "Short description"; ObjectID = "s2A-2u-Gre"; */
+"s2A-2u-Gre.text" = "Short description";
+
+/* Class = "UIButton"; normalTitle = "Summer"; ObjectID = "shM-MX-9nK"; */
+"shM-MX-9nK.normalTitle" = "Summer";
+
+/* Class = "UILabel"; text = "Cool Season"; ObjectID = "t7w-Dc-x79"; */
+"t7w-Dc-x79.text" = "Cool Season";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "tIN-XU-UE8"; */
+"tIN-XU-UE8.text" = "Title";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "u5I-U4-tXu"; */
+"u5I-U4-tXu.text" = "Title";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "uEs-AN-mr5"; */
+"uEs-AN-mr5.text" = "Title";
+
+/* Class = "UISegmentedControl"; uhA-tx-7dJ.segmentTitles[0] = "Normal"; ObjectID = "uhA-tx-7dJ"; */
+"uhA-tx-7dJ.segmentTitles[0]" = "Normal";
+
+/* Class = "UISegmentedControl"; uhA-tx-7dJ.segmentTitles[1] = "Satellite"; ObjectID = "uhA-tx-7dJ"; */
+"uhA-tx-7dJ.segmentTitles[1]" = "Satellite";
+
+/* Class = "UISegmentedControl"; uhA-tx-7dJ.segmentTitles[2] = "Hybrid"; ObjectID = "uhA-tx-7dJ"; */
+"uhA-tx-7dJ.segmentTitles[2]" = "Hybrid";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "uog-7d-ljP"; */
+"uog-7d-ljP.text" = "Title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "vew-em-IU1"; */
+"vew-em-IU1.text" = "Title";
+
+/* Class = "UILabel"; text = "ต้นไม้ที่แนะนำ"; ObjectID = "w63-KU-f3H"; */
+"w63-KU-f3H.text" = "ต้นไม้ที่แนะนำ";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "xkk-hd-ihN"; */
+"xkk-hd-ihN.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "FBshare"; ObjectID = "xp5-4Q-tB3"; */
+"xp5-4Q-tB3.normalTitle" = "FBshare";
+
+/* Class = "UILabel"; text = "Sci name"; ObjectID = "yaX-Sm-drn"; */
+"yaX-Sm-drn.text" = "Sci name";
+
+/* Class = "UIButton"; normalTitle = "Hot "; ObjectID = "yae-dI-EcE"; */
+"yae-dI-EcE.normalTitle" = "Hot ";
+
+/* Class = "UIButton"; normalTitle = "FBshare"; ObjectID = "yhf-b7-AhB"; */
+"yhf-b7-AhB.normalTitle" = "FBshare";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "yuw-nx-Ddf"; */
+"yuw-nx-Ddf.text" = "Title";
+
+/* Class = "UITextField"; text = "Title"; ObjectID = "z78-gg-Ryf"; */
+"z78-gg-Ryf.text" = "Title";
+
+/* Class = "UIViewController"; title = "Cold Gallery"; ObjectID = "zsB-dT-bPA"; */
+"zsB-dT-bPA.title" = "Cold Gallery";

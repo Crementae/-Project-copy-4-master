@@ -1,0 +1,404 @@
+//
+//  MapColdView.m
+//  ไม้ในไร่Project
+//
+//  Created by Crementae on 8/29/15.
+//  Copyright (c) 2015 Adisorn Chatnartanakun. All rights reserved.
+//
+
+#import "MapColdView.h"
+#import <GoogleMaps/GoogleMaps.h>
+#import "PlaceLoader.h"
+#import <CoreLocation/CoreLocation.h>
+#import "Place.h"
+#import "PlaceData.h"
+#import "PreferencesManager.h"
+#import "ColdTreeDetails.h"
+#import "DataUtil.h"
+#import "Reachability.h"
+#import "MapColdFilterController.h"
+#import "ColdViewController.h"
+#import "MapSummerView.h"
+#import "MapRainyView.h"
+#import "MapRecomendationView.h"
+#import "MapViewController.h"
+#import "DataUtilEng.h"
+#import "UIImageView+WebCache.h"
+
+
+
+
+
+
+
+
+@interface MapColdView ()<CLLocationManagerDelegate, GMSMapViewDelegate>
+
+
+@property(strong, nonatomic) CLLocationManager *locationManager;
+@property (nonatomic, strong) NSArray *locations;
+
+@end
+
+@implementation MapColdView{
+    PreferencesManager *appPrefs;
+    NSArray *tableData;
+}
+@synthesize mapView;
+@synthesize TitleField;
+
+
+-(BOOL)connected
+{
+    Reachability *reachability = [Reachability reachabilityForInternetConnection];
+    NetworkStatus networkStatus = [reachability currentReachabilityStatus];
+    return !(networkStatus == NotReachable);
+}
+
+
+
+- (void)viewDidLoad {
+    
+    NSString * language = [[NSLocale preferredLanguages]objectAtIndex:0];
+    
+    [super viewDidLoad];
+    
+    UIBarButtonItem * newBackButton = [[UIBarButtonItem alloc] initWithTitle:(@"Back") style:UIBarButtonItemStyleBordered target:self action:@selector(ColdTree:)];
+    [newBackButton setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]} forState:UIControlStateNormal];
+    self.navigationItem.leftBarButtonItem = newBackButton;
+    
+    appPrefs = [PreferencesManager sharedInstance];
+    
+    // Do any additional setup after loading the view.
+    //20.045127,99.89485
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:19.902967
+                                                            longitude:99.794456
+                                                                 zoom:16];
+    
+    mapView.camera = camera;
+    mapView.delegate = self;
+    
+    [self enableMyLocation];
+    mapView.myLocationEnabled = YES;
+    mapView.settings.myLocationButton = YES;
+    mapView.settings.compassButton = YES;
+    
+
+    
+    if (![self connected]) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Internet Connection Not Found" message:@"Please check your network setting!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alert show];
+    }else{
+        if([language isEqualToString:@"th"]){
+            
+        //Load data
+        DataUtil *util = [[DataUtil alloc] init];
+        tableData = util.getColdData;
+            
+        }else if([language isEqualToString:@"en"]){
+            
+            //Load data
+            DataUtilEng *util = [[DataUtilEng alloc] init];
+            tableData = util.getEngColdData;
+        }
+       
+    }
+    
+ 
+    
+    
+    
+}
+
+-(void)ColdTree:(UIBarButtonItem *) sender{
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main"
+                                                 bundle:nil];
+    ColdViewController *AllView= (ColdViewController *)[sb instantiateViewControllerWithIdentifier:@"ColdList"];
+    AllView.data = data;
+    
+    //mapView.data = [tableData objectAtIndex:indexPath.row];
+    [self.navigationController pushViewController:AllView animated:YES];
+    
+}
+
+-(void)SummerMap:(id)sender{
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main"
+                                                 bundle:nil];
+    MapSummerView *summerView= (MapSummerView *)[sb instantiateViewControllerWithIdentifier:@"MapSummer"];
+    summerView.data = data;
+    
+    //mapView.data = [tableData objectAtIndex:indexPath.row];
+    [self.navigationController pushViewController:summerView animated:YES];
+}
+
+-(void)RainyMap:(id)sender{
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main"
+                                                 bundle:nil];
+    MapRainyView *RainyView= (MapRainyView *)[sb instantiateViewControllerWithIdentifier:@"MapRainy"];
+    RainyView.data = data;
+    
+    //mapView.data = [tableData objectAtIndex:indexPath.row];
+    [self.navigationController pushViewController:RainyView animated:YES];
+}
+-(void)AllMap:(id)sender{
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main"
+                                                 bundle:nil];
+    MapViewController *mapView= (MapColdView *)[sb instantiateViewControllerWithIdentifier:@"Map"];
+    mapView.data = data;
+    
+    //mapView.data = [tableData objectAtIndex:indexPath.row];
+    [self.navigationController pushViewController:mapView animated:YES];
+}
+-(void)RecomendationMap:(id)sender{
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main"
+                                                 bundle:nil];
+    MapRecomendationView *recomendationView= (MapRecomendationView *)[sb instantiateViewControllerWithIdentifier:@"MapRecomendation"];
+    recomendationView.data = data;
+    
+    //mapView.data = [tableData objectAtIndex:indexPath.row];
+    [self.navigationController pushViewController:recomendationView animated:YES];
+}
+-(void)viewWillAppear:(BOOL)animated{
+    
+    
+    NSArray* languages = [[NSUserDefaults standardUserDefaults] objectForKey:@"AppleLanguages"];
+    NSString *lang = [languages objectAtIndex:0];
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:lang ofType:@"lproj"];
+    NSBundle *localBundle = [NSBundle bundleWithPath:path];
+    
+    
+    TitleField.text = NSLocalizedStringFromTableInBundle(@"title_cold_tree", nil, localBundle, nil);
+    TitleField.font = [UIFont fontWithName:@"Anchan" size:27];
+    TitleField.textColor = [UIColor whiteColor];
+    [super viewWillAppear:animated];
+    [self.navigationController.navigationBar setBarTintColor:[UIColor colorWithRed:(70/255.0) green:(130/255.0) blue:(180/255.0) alpha:1.0]];
+    
+    
+    [mapView clear];
+    for(PlaceData *data in tableData){
+        NSString *markerPath = [NSString stringWithFormat:@"PinCool.png"];
+        
+        int number = 1;
+        for(Location *location in data.locations){
+            // Creates a marker in the center of the map.
+            GMSMarker *marker = [[GMSMarker alloc] init];
+            marker.position = CLLocationCoordinate2DMake([location.lat floatValue], [location.lng floatValue]);
+            
+            NSString *code = [[NSString alloc] initWithFormat:@"%@-%d",data.name,number];
+            
+            marker.title = code;
+            marker.infoWindowAnchor = CGPointMake(0.5, 0.5);
+            marker.map = mapView;
+            marker.icon = [UIImage imageNamed:markerPath];
+            number++;
+        }
+    }
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)searchBarItemAction:(id)sender{
+    
+    UIStoryboard*  sb = [UIStoryboard storyboardWithName:@"Main"
+                                                  bundle:nil];
+    ViewController *viewController = (MapColdFilterController *)[sb instantiateViewControllerWithIdentifier:@"MapFilterCold"];
+    
+    UINavigationController *navigationController =
+    [[UINavigationController alloc] initWithRootViewController:viewController];
+    
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
+// Rather than setting -myLocationEnabled to YES directly,
+// call this method:
+
+- (void)enableMyLocation
+{
+    CLAuthorizationStatus status = [CLLocationManager authorizationStatus];
+    
+    if (status == kCLAuthorizationStatusNotDetermined)
+        [self requestLocationAuthorization];
+    else if (status == kCLAuthorizationStatusDenied || status == kCLAuthorizationStatusRestricted)
+        return; // we weren't allowed to show the user's location so don't enable
+    else{
+        //NSLog(@"enable location");
+        [self.mapView setMyLocationEnabled:YES];
+    }
+}
+
+// Ask the CLLocationManager for location authorization,
+// and be sure to retain the manager somewhere on the class
+
+- (void)requestLocationAuthorization
+{
+    _locationAuthorizationManager = [[CLLocationManager alloc] init];
+    _locationAuthorizationManager.delegate = self;
+    
+    [_locationAuthorizationManager requestAlwaysAuthorization];
+}
+
+// Handle the authorization callback. This is usually
+// called on a background thread so go back to main.
+
+- (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status
+{
+    //NSLog(@"request location");
+    if (status != kCLAuthorizationStatusNotDetermined) {
+        [self performSelectorOnMainThread:@selector(enableMyLocation) withObject:nil waitUntilDone:[NSThread isMainThread]];
+        
+        _locationAuthorizationManager.delegate = nil;
+        _locationAuthorizationManager = nil;
+    }
+}
+
+-(PlaceData *) findDataByMarker:(GMSMarker *)marker{
+    PlaceData *currentMarker = nil;
+    
+    for(PlaceData *data in tableData){
+        NSArray *code = [marker.title componentsSeparatedByString: @"-"];
+        
+        if([code[0] isEqualToString:data.name]){
+            currentMarker = data;
+            currentMarker.locationNumber = [code[1] intValue];
+            break;
+        }
+    }
+    
+    return currentMarker;
+}
+
+-(UIView *)mapView:(GMSMapView *)mapView markerInfoWindow:(GMSMarker *)marker{
+    PlaceData *currentMarker = [self findDataByMarker:marker];
+    
+    UIView *dialogView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 261, 95)];
+    
+    // Create background image
+    UIImageView *dialogBackground = [[UIImageView alloc] initWithImage: [UIImage imageNamed:@"MapDialog.png"]];
+    [dialogView addSubview:dialogBackground];
+    
+    UIImageView * thumbnail = [[UIImageView alloc] init];
+    
+    SDWebImageManager * manager = [SDWebImageManager sharedManager];
+    [manager downloadImageWithURL:[NSURL URLWithString:currentMarker.thumbnail] options:0 progress:^(NSInteger receivedSize, NSInteger expectedSize) {
+        
+    }completed:^(UIImage * image, NSError * error, SDImageCacheType cachedType, BOOL finished,NSURL *imageURL){
+        if(image == finished){
+            [thumbnail setImage:image];
+        }else{
+            [thumbnail sd_setImageWithURL:[NSURL URLWithString:currentMarker.thumbnail]  placeholderImage:[UIImage imageNamed:@"1.png"]  completed:^(UIImage * img, NSError *error, SDImageCacheType cachedType, NSURL * imageURL){
+                if(!marker.snippet||!cachedType){
+                    [marker setSnippet:@""];
+                    if(mapView.selectedMarker == marker){
+                        [mapView setSelectedMarker:marker];
+                    }
+                    
+                }
+            }];
+        }
+    }];
+    
+    
+    
+    
+    
+    CGRect tmpFrame = thumbnail.frame;
+    tmpFrame.origin.x = 15;
+    tmpFrame.origin.y = 14;
+    tmpFrame.size.width = 55;
+    tmpFrame.size.height = 55;
+    thumbnail.frame = tmpFrame;
+    thumbnail.contentMode = UIViewContentModeScaleToFill;
+    [dialogView addSubview:thumbnail];
+    
+    
+    
+    // Create title
+    UILabel *title = [[UILabel alloc] initWithFrame:CGRectMake(74, 20, 147, 25)];
+    title.text = currentMarker.name;
+    title.font = [UIFont fontWithName:@"browa_0" size:22];
+    [dialogView addSubview:title];
+    
+    // Create description
+    UILabel *description = [[UILabel alloc] initWithFrame:CGRectMake(74, 40, 147, 21)];
+    description.text = currentMarker.scientific_name;
+    description.font = [UIFont fontWithName:@"browa_0" size:18];
+    description.textColor = [UIColor grayColor];
+    [dialogView addSubview:description];
+    
+    [dialogView setNeedsDisplay];
+    
+    return dialogView;
+    
+}
+
+-(void)mapView:(GMSMapView *)mapView didTapInfoWindowOfMarker:(GMSMarker *)marker{
+    PlaceData *data = [self findDataByMarker:marker];
+    ColdTreeDetails *detailView = [[ColdTreeDetails alloc] init];
+    
+    UIStoryboard*  sb = [UIStoryboard storyboardWithName:@"Main"
+                                                  bundle:nil];
+    
+    
+    detailView = (ColdTreeDetails *)[sb instantiateViewControllerWithIdentifier:@"ColdView"];
+    
+    
+    detailView.data = data;
+    [self.navigationController pushViewController:detailView animated:YES];
+}
+
+
+
+
+- (IBAction)setMap:(id)sender {
+    
+    switch (((UISegmentedControl *)sender).selectedSegmentIndex) {
+            
+        case 0:
+        {
+            mapView.mapType = kGMSTypeNormal;
+            break;
+        }
+            
+        case 1:
+        {
+            mapView.mapType = kGMSTypeSatellite;
+            break;
+        }
+            
+        case 2:
+        {
+            mapView.mapType = kGMSTypeHybrid;
+            break;
+        }
+    }
+}
+
+
+-(void)didUpdateHeading:(CLHeading *)newHeading {
+    
+}
+
+-(void)didUpdateLocation:(CLLocation *)newLocation {
+    
+}
+
+-(void)didUpdateOrientation:(UIDeviceOrientation)orientation {
+    
+}
+
+
+/*
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
+
+@end
