@@ -33,6 +33,8 @@
             error:(NSError *)error;
 
 
+
+
 @end
 
 
@@ -62,6 +64,9 @@
     Reachability *reachability = [Reachability reachabilityForInternetConnection];
     NetworkStatus networkStatus = [reachability currentReachabilityStatus];
     return !(networkStatus == NotReachable);
+   
+
+ 
 }
 
 
@@ -73,6 +78,7 @@
     UIBarButtonItem * newBackButton = [[UIBarButtonItem alloc] initWithTitle:(@"Back") style:UIBarButtonItemStyleBordered target:self action:@selector(Back:)];
     [newBackButton setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}forState:UIControlStateNormal];
     self.navigationItem.leftBarButtonItem = newBackButton;
+    
     
     
     
